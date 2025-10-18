@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StrayCare App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            light: '#6ee7b7',
+                            DEFAULT: '#10b981',
+                            dark: '#047857',
+                        },
+                        secondary: '#f0fdf4',
+                    },
+                },
+            },
+        };
+    </script>
+    <script type="module">
+        import exifr from 'https://cdn.jsdelivr.net/npm/exifr/dist/full.esm.js';
+        window.exifr = exifr;
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-hot-toast": "https://aistudiocdn.com/react-hot-toast@^2.6.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-secondary text-gray-800">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "StrayCare App",
+  "description": "A responsive web app to help stray and injured animals by reporting their location to NGOs. Users can upload a photo, from which the app automatically extracts metadata (time, date, GPS location) to pin the location on a map and facilitate a quick rescue.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
