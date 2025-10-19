@@ -42,7 +42,7 @@ const AboutPage: React.FC = () => (
             StrayCare is a community-driven initiative dedicated to the welfare of stray and injured animals.
             Our mission is to connect compassionate citizens with local animal rescue organizations and authorities to provide timely help to animals in need.
          </p>
-         <img src="https://picsum.photos/seed/team/800/400" alt="Happy rescued animals" className="rounded-xl shadow-lg mx-auto"/>
+         <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=1200&auto=format&fit=crop" alt="Happy rescued animals" className="rounded-xl shadow-lg mx-auto aspect-[2/1] object-cover"/>
          <div className="mt-8 text-left space-y-4">
             <h2 className="text-2xl font-bold text-primary-dark text-center">How It Works</h2>
             <ol className="list-decimal list-inside space-y-2 text-gray-600 bg-white p-6 rounded-lg shadow-md">
